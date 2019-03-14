@@ -1,2 +1,3 @@
 # v8-toucans-team-03
-Add-project-description-here | Voyage-8 | https://chingu.io/
+1. Quinten Steenwyk
+2. Namrata Rane
