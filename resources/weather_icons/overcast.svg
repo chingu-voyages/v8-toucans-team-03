@@ -7,15 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="23.480909"
+   height="22.466667"
    version="1.1"
-   viewBox="0 0 29.611588 23.480909"
-   width="29.611588"
-   id="svg17"
-   sodipodi:docname="partially_cloudy.svg"
+   viewBox="0 0 27.007662 22.466667"
+   width="27.007662"
+   id="svg19"
+   sodipodi:docname="overcast.svg"
    inkscape:version="0.92.4 (33fec40, 2019-01-16)">
   <metadata
-     id="metadata21">
+     id="metadata23">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -37,54 +37,57 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview19"
+     id="namedview21"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="7.375"
-     inkscape:cx="14.803926"
+     inkscape:cx="13.2"
      inkscape:cy="11.466667"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg17" />
+     inkscape:current-layer="svg19" />
   <desc
      id="desc4" />
   <defs
      id="defs6" />
   <g
-     id="Partly-Cloudy"
+     id="Overcast"
      style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
-     transform="translate(-1.1960743,-3.9857575)">
+     transform="translate(-2.8,-5)">
     <g
-       transform="translate(2,5)"
-       id="g14"
+       transform="translate(3,6)"
+       id="g16"
        style="stroke:#979797;stroke-width:2">
-      <path
-         d="M 12.041412,7.5729699 C 11.665116,5.9090959 10.17765,4.6666667 8.4,4.6666667 6.3381369,4.6666667 4.6666667,6.3381369 4.6666667,8.4 c 0,0.5692019 0.127383,1.108652 0.355197,1.5913978"
-         id="Oval-2"
-         inkscape:connector-curvature="0"
-         style="stroke-linecap:round" />
       <g
          id="Group-3"
-         transform="translate(2,4)">
+         transform="translate(2)">
+        <path
+           d="M 8,7 C 8,4.790861 6.209139,3 4,3 1.790861,3 0,4.790861 0,7 0,7.7490929 0.20591462,8.4500919 0.56422874,9.0494818"
+           id="Oval-3"
+           inkscape:connector-curvature="0" />
+        <path
+           d="M 18.081622,3.5314731 C 16.875832,1.4218241 14.603958,0 12,0 9.5373897,0 7.3717901,1.2716545 6.1240426,3.1941225"
+           id="path9"
+           inkscape:connector-curvature="0"
+           style="stroke-linecap:round" />
+      </g>
+      <g
+         id="Group-2"
+         transform="translate(0,3)">
         <path
            d="M 10.14412,5.0338585 C 9.2927421,4.6274947 8.3396049,4.4 7.3333333,4.4 3.725073,4.4 0.8,7.325073 0.8,10.933333 c 0,3.608261 2.925073,6.533334 6.5333333,6.533334 1.7826395,0 3.3985267,-0.713951 4.5773227,-1.871511"
            id="Oval"
            inkscape:connector-curvature="0" />
         <path
            d="m 10.462812,13.79348 c 1.512127,2.21739 4.058478,3.673187 6.94485,3.673187 4.639191,0 8.4,-3.760808 8.4,-8.4000003 0,-4.6391919 -3.760809,-8.40000003 -8.4,-8.40000003 -4.022922,0 -7.385328,2.82800083 -8.207662,6.60444573"
-           id="path10"
+           id="path13"
            inkscape:connector-curvature="0"
            style="stroke-linecap:round" />
       </g>
-      <path
-         d="M 7.9438618,1.8666667 V 0 M 12.691346,4.1562704 14.142018,2.981539 M 2.0287784,9.2810256 0.20995432,9.7009342 M 3.1963776,4.1562704 1.7457052,2.981539"
-         id="Path-4"
-         inkscape:connector-curvature="0"
-         style="stroke-linecap:round" />
     </g>
   </g>
 </svg>

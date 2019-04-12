@@ -33,6 +33,7 @@ navigator.geolocation.getCurrentPosition(function(position){
         case 314:
         case 321:
           console.log("drizzle rain");
+          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/light_rain.svg");
           break;
           
         case 500:
@@ -46,6 +47,7 @@ navigator.geolocation.getCurrentPosition(function(position){
         case 522:
         case 531: 
           console.log("rain");
+          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/rainy.svg");
           break;
           
         case 600:
@@ -60,6 +62,7 @@ navigator.geolocation.getCurrentPosition(function(position){
         case 621:
         case 622:
           console.log("snow");
+          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/snowy.svg");
           break;
           
         case 701:
@@ -84,7 +87,7 @@ navigator.geolocation.getCurrentPosition(function(position){
         case 803:
         case 804:
           console.log("cloudy");
-          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/cloudy.svg");
+          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/overcast.svg");
           break; 
       }
     });
