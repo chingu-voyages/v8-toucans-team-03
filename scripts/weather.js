@@ -76,6 +76,7 @@ navigator.geolocation.getCurrentPosition(function(position){
         case 771:
         case 781: 
           console.log("atmosphere");
+          document.getElementById("weather_icon").setAttribute("src","resources/weather_icons/overcast.svg");
           break;      
           
         case 800:
