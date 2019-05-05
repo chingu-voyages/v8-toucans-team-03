@@ -75,6 +75,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.button:hover {
+    background-color: rgba(125,125,125, 0.25);
+}
 
 input {
     background-color: rgba(0, 0, 0, 0);

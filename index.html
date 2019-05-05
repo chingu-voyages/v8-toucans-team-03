@@ -25,14 +25,17 @@
     </div>
   </div>
 
-
     <div id="button_container">
-      <div class="button">
-        <img src="resources/link_icons/bookmark-regular.svg">
-      </div>
-      <div class="button">
-        <img src="resources/link_icons/envelope-regular.svg">
-      </div>
+      <a href="chrome://bookmarks/">
+        <div class="button" id="bookmarks">
+          <img src="resources/link_icons/bookmark-regular.svg">
+        </div>
+      </a>
+      <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+        <div class="button">
+          <img src="resources/link_icons/envelope-regular.svg">
+        </div>
+     </a>
       <div class="button">
         <img src="resources/link_icons/flag-regular.svg">
       </div>
@@ -51,4 +54,5 @@
   <script src="scripts/weather.js"></script>
   <script src="scripts/note.js"></script>
   <script src="scripts/date.js"></script>
+  <script src="scripts/links.js"></script>
 </html>
