@@ -13,7 +13,7 @@ body {
     grid-column-start: 4;
     grid-row-start: 1;
     justify-self: end;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     margin-right: 35px;
     margin-top: 30px;
 }
@@ -24,25 +24,32 @@ body {
 #weather_text {
     vertical-align: text-top;
 }
-#clock_container {
+#clock_align {
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#clock_container {
+    flex: 1;
     font-size: 36px;
     text-align: right;
-    color: grey;
+    color: rgba(255, 255, 255, 0.5);
 }
 #date_container {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  font-size: 36px;
-  text-align: left;
-  color: grey;
+    flex: 1;
+    font-size: 36px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
 }
 #note_container {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    margin-left: 35px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -59,10 +66,22 @@ body {
 }
 
 .button {
-    flex: 1 1 1 1 1;
+    flex: 1 1 1 1;
     background-color: rgba(255, 255, 255, 0.5);
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+#output li{
+    list-style: none;
 }
