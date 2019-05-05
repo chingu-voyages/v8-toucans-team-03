@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "TBD",
+    "version": "1.0.0",
+
+    "description": "A new tab chrome extension for productivity",
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "system.storage",
+        "geolocation"
+
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
