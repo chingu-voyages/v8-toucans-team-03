@@ -25,24 +25,6 @@
     </div>
   </div>
 
-    <div id="button_container">
-      <a href="chrome://bookmarks/">
-        <div class="button" id="bookmarks">
-          <img src="resources/link_icons/bookmark-regular.svg">
-        </div>
-      </a>
-      <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-        <div class="button">
-          <img src="resources/link_icons/envelope-regular.svg">
-        </div>
-     </a>
-      <div class="button">
-        <img src="resources/link_icons/flag-regular.svg">
-      </div>
-      <div class="button">
-        <img src="resources/link_icons/history-solid.svg">
-      </div>
-    </div>
     <div id="note_container">
       <input id="input" type="text" placeholder="enter note here"></input>
       <button id="save">Save</button>
@@ -50,9 +32,50 @@
         <ul id="output"></ul>
       </div>
     </div>
+
+    <div id="calculator_container">
+      <h1 id="tip_header">Tip Calculator</h1>
+
+      <div id="calculator">
+        <form id="calculator_form">
+          <label class="calculator_form_label">
+            How much was your bill?
+            <br>
+            $ <input class="calculator_form_input" type="text" id="billAmount">
+          </label>
+          <label class="calculator_form_label">
+            How was your service?
+          </br>
+          <select class="calculator_form_select" id="serviceQuality">
+            <option disabled selected value="0"> --Choose an option </option>
+            <option value="0.3">30% - Outstanding </option>
+            <option value="0.2">20% - Good </option>
+            <option value="0.15">15% - Okay </option>
+            <option value="0.1">10% - Bad </option>
+            <option value="0.05">5% - Terrible </option>
+          </select>
+          </label>
+          <label class="calculator_form_label">
+            How many people are sharing the bill?
+            <br>
+            <input class="calculator_form_input" type="text" id="totalPeople"> people
+          </label>
+          <button type="button" id="calculate_button"> Calculate! </button>
+        </form>
+      </div>
+
+      <div id="total_tip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div>
+
+    </div>
+
+
   </body>
   <script src="scripts/weather.js"></script>
   <script src="scripts/note.js"></script>
   <script src="scripts/date.js"></script>
   <script src="scripts/links.js"></script>
+  <script src="scripts/tipcalculator.js"></script>
 </html>

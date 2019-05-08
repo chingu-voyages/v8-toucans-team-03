@@ -64,6 +64,83 @@ body {
     align-self: end;
     justify-self: center;
 }
+#calculator_container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end:5;
+  background-color: grey;
+  opacity: 0.75;
+  width: 300px;
+  height: 400px;
+  justify-self: center;
+  margin-top: 10px;
+  box-shadow: 0 10px 15px -8px #000;
+  -webkit-border-radius: 5px;
+  -mox-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#calculator_container:hover {
+  opacity: 1.0;
+}
+
+#tip_header {
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+
+#calculator_form {
+  text-align: left;
+}
+
+.calculator_form_label {
+  display: block;
+  margin: 20px 10px;
+  font-weight: bold;
+}
+
+.calculator_form_input {
+  font-size: 16px;
+  color: black;
+}
+
+.calculator_form_select {
+}
+
+.calculator_form_input[type="text"] {
+ width: 70px;
+}
+
+#calculate_button {
+  background: #6c2726;
+  color: white;
+  border:none;
+  border-bottom: solid 1px black;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 100px;
+  width: 100px;
+}
+
+#calculate_button:hover {
+  background: #4c2827;
+  border-bottom-color: #111;
+  top: 1px;
+}
+
+#total_tip {
+  font-size: 20px;
+}
+
+#total_tip:before {
+  content: "Tip amount";
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
 
 .button {
     flex: 1 1 1 1;
